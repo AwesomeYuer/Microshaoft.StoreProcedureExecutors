@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microshaoft.Data.Client.Shared", "Microshaoft.Data.Client.Shared\Microshaoft.Data.Client.Shared.shproj", "{D55088DA-813A-40B0-86BF-F4BE59FF17C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microshaoft.Data.Client.NETStandard", "Microshaoft.Data.Client.NetStandard\Microshaoft.Data.Client.NETStandard.csproj", "{C60735C5-8FEB-43A7-A390-BC05461F9476}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Microshaoft.Data.Client.Shared\Microshaoft.Data.Client.Shared.projitems*{d55088da-813a-40b0-86bf-f4be59ff17c7}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C60735C5-8FEB-43A7-A390-BC05461F9476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60735C5-8FEB-43A7-A390-BC05461F9476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60735C5-8FEB-43A7-A390-BC05461F9476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60735C5-8FEB-43A7-A390-BC05461F9476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C302FB84-9145-4F37-9C84-5672AF0C36BC}
+	EndGlobalSection
+EndGlobal
